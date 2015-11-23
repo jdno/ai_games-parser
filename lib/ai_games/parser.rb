@@ -1,6 +1,6 @@
-require "ai_games/parser/version"
+require 'ai_games/parser/version'
 
-module AiGames
+module AIGames
   module Parser
     # Your code goes here...
   end
