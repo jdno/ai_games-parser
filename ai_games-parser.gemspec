@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ai_games/parser/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'AIGames::Parser'
+  spec.name          = 'ai_games-parser'
   spec.version       = AIGames::Parser::VERSION
   spec.authors       = ['Jan David Nose']
   spec.email         = ['jandavid@awesometechnology.de']
@@ -25,6 +25,8 @@ work in any competition.
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+
+  spec.add_runtime_dependency 'ai_games-logger'
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake', '~> 10.0'
