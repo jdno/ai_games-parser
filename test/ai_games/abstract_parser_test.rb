@@ -1,13 +1,13 @@
 require 'test_helper'
-require 'ai_games/parser/default_parser'
+require 'ai_games/parser/abstract_parser'
 
 module AIGames
   module Parser
-    class DefaultParserTest < Minitest::Test
+    class AbstractParserTest < Minitest::Test
       def setup
         @input = StringIO.new
         @output = StringIO.new
-        @parser = DefaultParser.new(input: @input, output: @output)
+        @parser = AbstractParser.new(input: @input, output: @output)
       end
 
       def test_initialize

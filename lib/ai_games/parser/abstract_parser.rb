@@ -21,7 +21,12 @@ require 'ai_games/logger'
 
 module AIGames
   module Parser
-    class DefaultParser
+    # This class provides an abstract parser that can be extended to implement
+    # the logic that is required for a specific competition. It provides methods
+    # to communicate with the game engine, but does NOT contain any logic how to
+    # parse the engine's commands. This is totally up to the implementations of
+    # this class.
+    class AbstractParser
       # Initializes the parser. Pass in options using a hash structure.
       def initialize(options = nil)
         initialize_streams options if options
