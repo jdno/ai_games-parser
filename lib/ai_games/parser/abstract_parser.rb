@@ -47,7 +47,7 @@ module AIGames
           next if command.length == 0
 
           response = parse split_line command
-          write_to_engine response
+          write_to_engine response unless response.nil? || response.length < 1
         end
 
         AIGames::Logger.info 'Parser.run : Stopping loop'
