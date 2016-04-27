@@ -1,6 +1,8 @@
 # AIGames::Parser
 
 [![Build Status](https://travis-ci.org/jdno/ai_games-parser.svg?branch=develop)](https://travis-ci.org/jdno/ai_games-parser)
+[![Code Climate](https://codeclimate.com/github/jdno/ai_games-parser/badges/gpa.svg)](https://codeclimate.com/github/jdno/ai_games-parser)
+[![Test Coverage](https://codeclimate.com/github/jdno/ai_games-parser/badges/coverage.svg)](https://codeclimate.com/github/jdno/ai_games-parser/coverage)
 
 This gem provides a parser that can be used to communicate with the game engine
 in The AI Games' competitions. By extending it, the parser can be customized to
