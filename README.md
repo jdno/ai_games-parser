@@ -1,4 +1,4 @@
-# AIGames::Parser
+# AiGames::Parser
 
 [![Build Status](https://travis-ci.org/jdno/ai_games-parser.svg?branch=develop)](https://travis-ci.org/jdno/ai_games-parser)
 [![Code Climate](https://codeclimate.com/github/jdno/ai_games-parser/badges/gpa.svg)](https://codeclimate.com/github/jdno/ai_games-parser)
@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-The gem provides an abstract parser in `AIGames::Parser`. Extend this class, and
+The gem provides an abstract parser in `AiGames::Parser`. Extend this class, and
 overwrite the method `parse(command_array)` to customize your parser for the
 specific challenge.
 

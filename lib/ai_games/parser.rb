@@ -1,4 +1,4 @@
-module AIGames
+module AiGames
   # This class provides an abstract parser that can be extended to implement
   # the logic that is required for a specific competition. It provides methods
   # to communicate with the game engine, but does NOT contain any logic how to
@@ -17,7 +17,7 @@ module AIGames
     # sanitizes the input a little bit, and then passes it to a method that
     # needs to be overwritten by parsers extending this interface.
     def run
-      AIGames::Logger.info 'Parser.run : Starting loop'
+      AiGames::Logger.info 'Parser.run : Starting loop'
 
       loop do
         command = read_from_engine
@@ -30,7 +30,7 @@ module AIGames
         write_to_engine response unless response.nil? || response.length < 1
       end
 
-      AIGames::Logger.info 'Parser.run : Stopping loop'
+      AiGames::Logger.info 'Parser.run : Stopping loop'
     end
 
     # Parses the given command array. This method MUST return a valid response
