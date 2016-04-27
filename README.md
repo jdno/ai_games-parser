@@ -1,5 +1,7 @@
 # AIGames::Parser
 
+[![Build Status](https://travis-ci.org/jdno/ai_games-parser.svg?branch=develop)](https://travis-ci.org/jdno/ai_games-parser)
+
 This gem provides a parser that can be used to communicate with the game engine
 in The AI Games' competitions. By extending it, the parser can be customized to
 work in any competition.
