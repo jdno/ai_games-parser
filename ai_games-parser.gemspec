@@ -5,7 +5,7 @@ require 'ai_games/parser'
 
 Gem::Specification.new do |spec|
   spec.name          = 'ai_games-parser'
-  spec.version       = AIGames::Parser::VERSION
+  spec.version       = AiGames::Parser::VERSION
   spec.authors       = ['Jan David Nose']
   spec.email         = ['jandavid@awesometechnology.de']
 
