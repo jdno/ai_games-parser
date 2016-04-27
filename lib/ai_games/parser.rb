@@ -5,7 +5,7 @@ module AiGames
   # parse the engine's commands. This is totally up to the implementations of
   # this class.
   class Parser
-    VERSION = '0.3.0'
+    VERSION = '0.4.0'
 
     # Initializes the parser. Pass in options using a hash structure.
     def initialize(options = nil)
