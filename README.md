@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The gem provides an abstract parser in `AIGames::Parser`. Extend this class, and
+overwrite the method `parse(command_array)` to customize your parser for the
+specific challenge.
 
 ## Development
 
